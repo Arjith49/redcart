@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+}
+body{
+    /* background-color: rgb(235, 228, 228); */
+    overflow-x: hidden;
+    /*  */
+}
+/* .abc header{
+    background-color: rgb(93, 235, 80);
+} */
+.abc{
+    background-color: rgb(224, 213, 175);
+    height: 810px;
+}
+.logo{
+    position: absolute;
+    top: 15px;
+    left: 120px;
+}
+.ah{display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 110px;
+    left: 800px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 20px; */
+    /* right: 10px; */
+}
+
+ul li{
+    display: inline;
+    padding: 10px;
+    font-size: 17px;
+    right: 10px;
+    padding: 20px;
+    
+}
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    /* right: 10px; */
+}
+ul{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+h1{
+    color: black;
+    position: relative;
+    top: 300px;
+    right: 750px;
+    font-size: 40px;
+    
+    /* left: 10px; */
+}
+#n0{
+    color: black;
+    position: relative;
+    top:310px;
+    right: 750px;
+    font-size: 20px;
+}
+button{
+    background-color: orangered;
+    position: relative;
+    top: 330px;
+    right: 750px;
+    border-radius: 30px;
+    font-size: 16px;
+    height: 35px;
+    width: 140px;;
+    transition-duration: 0.5s;
+}
+button:hover{
+    background-color: brown;
+}
+/* .col1{
+    position: absolute;
+    top: 20%;
+    left: 600px;
+} */
+
+.c1{
+  position: absolute;
+  top: 850px;
+  left:250px;
+  /* height: 300px;
+  width: 300px; */
+}
+.c2{
+    position: absolute;
+    top: 850px;
+    left: 650px;
+}
+.c3{
+    position: absolute;
+    top: 850px;
+    left: 1100px;
+}
+#k1{
+    position: absolute;
+    top: 1300px;
+    left: 650px;
+    /* color: black; */
+    
+}
+#line{
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    top: 1360px;
+    left: 720px;
+    margin-bottom: 30px;
+    background-color: rgb(255,144,17);
+}
+.c4{
+    position: absolute;
+    top: 600px;
+    left: 800px;
+}
+.c4:hover{
+    transform: translate(5px,5px);
+}
+.product{
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+.c5{
+    position: relative;
+    top: 600px;
+    left: 100px;
+}
+/* .p1{
+       position: relative;
+    top: 1400px;
+    left: 100px; 
+} */
+.c5:hover{
+    transform: translate(5px,5px);
+}
+#w1{
+    color: orangered;
+}
+/* .p1{
+    position: absolute;
+    top: 300px;
+    left: 5px;
+} */
+.c6{
+    position: absolute;
+    top: 600px;
+    left: 450px;
+}
+.c6:hover{
+    transform: translate(5px,5px);
+}
+.c7{
+    position: absolute;
+    top: 600px;
+    left: 1150px;
+}
+.c7:hover{
+    transform: translate(5px,5px);
+}
+
+#k2{
+    position: absolute;
+    top: 1800px;
+    left: 650px;
+}
+/* #linee{
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    top: 1900px;
+    left: 100px;
+    margin-bottom: 30px;
+    background-color: rgb(255,144,17);
+} */
+.c8{
+    position: absolute;
+    top: 1900px;
+    left: 100px;
+}
+.c8:hover{
+    transform: translate(5px,5px);
+}
+.c9{
+    position: absolute;
+    top: 1900px;
+    left: 450px;
+}
+.c9:hover{
+    transform: translate(5px,5px);
+}
+.c10{
+    position: absolute;
+    top: 1900px;
+    left: 800px;
+}.c10:hover{
+    transform: translate(5px,5px);
+}
+.c11{
+    position: absolute;
+    top: 1900px;
+    left: 1150px;
+}
+.c11:hover{
+    transform: translate(5px,5px);
+}
+.c12{
+    position: absolute;
+    top: 2300px;
+    left: 100px;
+}
+.c12:hover{
+    transform: translate(5px,5px);
+}
+.c13{
+    position: absolute;
+    top: 2300px;
+    left: 450px;
+}
+.c13:hover{
+    transform: translate(5px,5px);
+}
+.c14{
+    position: absolute;
+    top: 2300px;
+    left: 800px;
+}
+.c14:hover{
+    transform: translate(5px,5px);
+}
+.c15{
+    position: absolute;
+    top: 2300px;
+    left: 1150px;
+}.c15:hover{
+    transform: translate(5px,5px);
+}
+.smartband{
+    position: absolute;
+    background-color: rgb(228, 198, 170);
+    top: 2750px;
+    height: 500px;
+    width: 100%;
+}
+.band{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+.smartband button:hover{
+    background-color: rgb(46, 224, 23);
+}
+#n1{
+    position: absolute;
+    top: 100px;
+    left: 750px;
+}
+.smartband h1{
+    position: relative;
+    display: flex;
+    top: 150px;
+    /* align-content: center;
+    /* left: 600px; */ 
+    left: 750px;
+}
+#n2{
+    position: absolute;
+    top: 240px;
+    left: 750px;
+}
+.smartband button{
+    background-color: rgb(236, 18, 18);
+    position: absolute;
+    top: 350px;
+    left: 750px;
+    border-radius: 30px;
+    font-size: 16px;
+    height: 35px;
+    width: 140px;;
+    transition-duration: 0.5s;
+}
+.quots{
+    
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    
+
+}
+.quots img{
+    border-radius: 60%;
+    
+    
+}
+.t{
+    position: relative;
+    top: 2500px;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(12, 12, 12, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;  
+    
+}
+.t:hover{
+    transform: translate(10px,10px);
+}
+.m{
+    position: relative;
+    top: 2500px;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    
+}
+.m:hover{
+    transform: translate(10px,10px);
+}
+.u{
+    position: relative;
+    top: 2500px;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    
+}
+.u:hover{
+    transform: translate(10px,10px);
+}
+#s1{
+    position: relative;
+    font-size: 60px;
+    color: orangered;
+}
+#s2{
+    font-size: 60px;
+    color: orangered;
+}
+#s3{
+    font-size: 60px;
+    color: orangered;
+}
+#t5{
+    font-size: 30px;
+    color: orangered;
+}
+#t6{
+    font-size: 30px;
+    color: orangered;
+}
+#t7{
+    font-size: 30px;
+    color: orangered;
+}
+.filter{
+    position: relative;
+    /* filter: grayscale(); */
+    display: flex;
+    justify-content: space-around;
+    top: 2600px;
+    margin: 50px; 
+    cursor: pointer;
+}
+/* .filter:hover{
+    filter: none;
+    
+} */
+.im1{
+    position: relative;
+    top: -40px;
+    margin: 50px;
+    filter: grayscale(); 
+}
+.im1:hover{
+    filter: none;
+}
+.im2{
+    position: relative;
+    top: -40px;
+    margin: 50px;
+    filter: grayscale(); 
+}
+.im2:hover{
+    filter: none;
+}
+.im3{
+    position: relative;
+    top: -40px;
+    margin: 50px;
+    filter: grayscale(); 
+}
+.im3:hover{
+    filter: none;
+}
+.im4{
+    position: relative;
+    top: -40px;
+    margin: 50px;
+    filter: grayscale(); 
+}
+.im4:hover{
+    filter: none;
+}
+.im5{
+    position: relative;
+    top: -40px;
+    margin: 50px;
+    filter: grayscale(); 
+}
+.im5:hover{
+    filter: none;
+}
+/* ----------footer-------------- */
+.foot{
+    position: relative;
+    background-color: black;
+    top: 2625px;
+    height: 300px;
+    width: 100%;
+}
+h4{
+    position: absolute;
+    top:50px;
+    left: 100px;
+    color: white;
+}
+#x1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: gray;
+}
+#d1{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+#d2{
+    position: absolute;
+    top: 150px;
+    left: 252px;
+}
+#d3{
+    position: absolute;
+    top: 60px;
+    left: 650px;
+}
+#x2{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 500px;
+    color: gray;
+}
+.x{
+    position: relative;
+    top: 10px;
+    left: 950px;
+    display: flex;
+}
+.xm{
+    position: absolute;
+    top: 100px;
+    left: 1050px;
+    text-align: center;
+    color: gray;
+}
+.y{
+    position: relative;
+    top: 10px;
+    left: 1200px;
+    display: flex;
+}
+.ym{
+    position: absolute;
+    top: 100px;
+    left: 1300px;
+    text-align: center;
+    color: gray;
+}
+.fline{
+    position: absolute;
+    width: 1400px;
+    height: 2px;
+    top: 250px;
+    left: 100px;
+    margin-bottom: 30px;
+    background-color: rgb(245, 240, 234);
+
+}
+.copy{
+    position: absolute;
+    top: 260px;
+    left: 650px;
+    color: white;
+}
